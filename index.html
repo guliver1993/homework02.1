@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Home work 02.1</title>
+</head>
+<body>
+<header>
+    <h2 align="center">Сторінка соціального опитування на тему:
+    <br>"Комп'ютерна техніка в житті людини"
+    </h2>
+</header>
+<nav>
+    <form action="https://formspree.io/vasil.palukha@gmail.com"
+      method="POST" align="center">
+    <fieldset> 
+    <legend>Персональна інформація:</legend>
+        <label for="name" required >Вкажіть Ваше ім'я:</label>
+            <input type="text" name="name" id="name" required>
+        <label for="name" required>Вкажіть Ваш вік:</label>
+            <input type="text" name="name" id="name" required>
+        <label for="email" required>Ваша електронна адреса:</label>
+            <input type="email" name="email" id="email" required>
+    </fieldset>
+    </form>
+</nav>
+<article>
+    <form>
+    <fieldset>
+        <label for="text">1.Що з перерахованого є у Вас дома(можна обрати декілька варіантів):</label>
+            <br><input type="checkbox" name="text" id="PC" >Персональний комп'ютер (ПК) 
+            <br><input type="checkbox" name="text" id="laptop">Ноутбук 
+            <br><input type="checkbox" name="text" id="netbook" >Нетбук <br>
+        <label for="text">2.Як Ви себе оцінюєте при роботі з персональним комп’ютером (ПК)?</label>
+            <br><input type="checkbox" name="text" id="professional">Професіонал
+            <br><input type="checkbox" name="text" id="novice">Початківець
+            <br><input type="checkbox" name="text" id="user">Впевнений користувач<br>
+        <label for="text">3.Чи є у Вас дома більше одного ПК? Так ні</label>
+            <br><input type="checkbox" name="text" id="yes">Так
+            <br><input type="checkbox" name="text" id="no">Ні<br>
+        <label for="text">4.Скільки часу Ви  в середньому проводите за комп’ютером?</label>
+            <br><input type="checkbox" name="text" id="<2">Менше 2 год.
+            <br><input type="checkbox" name="text" id="2-6">Від 2 до 6 год.
+            <br><input type="checkbox" name="text" id="6>">Більше 6 год.<br>
+        <label for="text">5.Ваша професія пов’язана з ПК? </label>
+            <br><input type="checkbox" name="text" id="yes">Так
+            <br><input type="checkbox" name="text" id="no">Ні<br>
+        <label for="text">6.В яких цілях Ви використовуєте власний комп’ютер?(можна обрати декілька)</label>
+            <br><input type="checkbox" name="text" id="work" >По роботі 
+            <br><input type="checkbox" name="text" id="study">По навчанню
+            <br><input type="checkbox" name="text" id="game" >Для відеоігор<br>
+        <label for="text">7.На Вашому ПК є встановлена антивірусна програма? </label>
+            <br><input type="checkbox" name="text" id="yes">Так
+            <br><input type="checkbox" name="text" id="no">Ні<br>
+        <label for="text">8.Яким пристрій збереження і відтворення інформації Ви найчастіше використовуєте? </label>
+            <br><input type="checkbox" name="text" id="usb-flash">Переносні USB-накопичувачі
+            <br><input type="checkbox" name="text" id="cd">Компакт-диски<br>
+        <label for="text">9.При покупці нового ПК, що для Вас є пріоритетом і чому?</label>
+            <br><textarea name="comments" id="comments" rows="10" cols="70"></textarea><br>
+        <label for="text">10.У Вас вийшов з ладу ПК. Опишіть Ваші дії</label>
+            <br><textarea name="comments" id="comments" rows="10" cols="70"></textarea><br>
+        <label for="text">11.Вам порадили хорошого майстра з ремонту і налагодження ПК. Ви оберете його чи віддасте ПК в сервісний центр і чому?</label>
+            <br><textarea name="comments" id="comments" rows="10" cols="70"></textarea><br>
+        <label for="text">12.На Вашу думку які недоліки і/або чого бракує в сучасних комп’ютерах і чому.</label>
+            <br><textarea name="comments" id="comments" rows="10" cols="70"></textarea><br>
+            <br> <input type="submit" id="send">
+    </fieldset>
+    </form>
+</article>
+</body>
+</html>
